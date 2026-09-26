@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2026-09-26
+
+### Added
+
+- `journal/default/`：日报备份 2026-07-29 ~ 2026-09-19
+- `game/`：qtgame-war 遗留文档归档（`qtgame-war/docs/` 下 STATUS、brochure、bylaw、context、insight、intention、report、roadmap、spec）与 `game/README.md`
+- `fiction/职场言情/`：初稿 `0_前言`、`男女主散步`，提纲 `男主演讲`，改稿 `展会再遇`，素材 `创作日记1`
+- `profile/media/`：老街探店小红书文案
+
+### Changed
+
+- `fiction/职场言情/` 草稿按 提纲/素材/初稿/改稿 分目录整理（`小龙虾.md` 移入 `提纲/`）
+- `AGENTS.md`、`CONTRIBUTING.md`：发布版本声明更新为 1.0.1
+
 ## [1.0.0] - 2026-08-10
 
 首个正式发布（1.0.0）：归档结构与目录规范已稳定，后续版本遵循语义化版本规范，破坏性变更将单独声明。
