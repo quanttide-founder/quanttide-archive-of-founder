@@ -4,7 +4,7 @@
 
 ## 结构
 
-- `journal/` - 按职能分类的归档日志（`write/` 为存量写作日志，保持原状）
+- `journal/` - 按职能分类的归档日志（原 `write/` 已迁 quanttide-write 归档）
 - `fiction/` - 写作主线：作品归档，`journal/` 为 fiction 记忆集日志归档位（按需创建）
 - `game/` - 游戏主线：项目文档与 `journal/` game 记忆集日志归档
 

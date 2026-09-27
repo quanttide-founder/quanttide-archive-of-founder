@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-09-27
+
+`journal/write/` 存量写作日志整体迁出本仓库，移交叙事工程归档（quanttide-archive-of-narrative-engineering）；内容逐字节不变。
+
+### 路径映射
+
+| 旧路径 | 新路径 |
+|--------|--------|
+| `journal/write/**` | `quanttide/domains/quanttide-write/data/archive/journal/**` |
+
+### Changed
+
+- AGENTS.md、README.md、CONTRIBUTING.md、fiction/README.md：移除「write 存量保持原状」表述，登记迁出目标
+- 全部已知读者（本仓库文档、主仓库 `journal-to-archive` skill）已同步
+
 ## [1.1.0] - 2026-09-27
 
 升级 `fiction/`、`game/` 一级主题目录以兼容记忆集新结构（`write/` 集更名 `fiction/`、新增 `game/` 集）；存量 `journal/write/` 保持原状不迁移。

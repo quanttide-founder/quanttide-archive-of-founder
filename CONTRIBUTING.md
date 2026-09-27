@@ -35,7 +35,7 @@
 |------|------|
 | default | 默认日志 |
 | product | 产品相关 |
-| write | 写作相关（存量，新 fiction 集日志入 `fiction/journal/`） |
+| write | 已迁出至 quanttide-write 归档（`data/archive/journal/`） |
 | execute | 执行相关 |
 | think | 思考相关 |
 
