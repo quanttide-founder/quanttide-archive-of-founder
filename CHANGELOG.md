@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.2.0] - 2026-09-27
+## [1.1.1] - 2026-09-27
 
 `journal/write/` 等 write 域资源分批迁出本仓库，移交叙事工程归档（quanttide-archive-of-narrative-engineering）；其中 fiction 主题日志随即回迁本仓库 `fiction/journal/`。内容逐字节不变。
 
