@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.2.0] - 2026-09-27
 
-`journal/write/` 存量写作日志迁出本仓库，移交叙事工程归档（quanttide-archive-of-narrative-engineering）；其中 fiction 主题日志随即回迁本仓库 `fiction/journal/`。内容逐字节不变。
+`journal/write/` 等 write 域资源分批迁出本仓库，移交叙事工程归档（quanttide-archive-of-narrative-engineering）；其中 fiction 主题日志随即回迁本仓库 `fiction/journal/`。内容逐字节不变。
 
 ### 路径映射
 
@@ -12,10 +12,15 @@ All notable changes to this project will be documented in this file.
 |--------|--------|
 | `journal/write/fiction/**` | `fiction/journal/**`（回迁本仓库） |
 | `journal/write/**`（其余） | `quanttide/domains/quanttide-write/data/archive/journal/**` |
+| `context/write/**` | `quanttide/domains/quanttide-write/data/archive/context/**` |
+| `handbook/write/**` | `quanttide/domains/quanttide-write/data/archive/handbook/**` |
+| `profile/write/**` | `quanttide/domains/quanttide-write/data/archive/profile/**` |
+| `report/write/**` | `quanttide/domains/quanttide-write/data/archive/report/**` |
 
 ### Changed
 
 - `fiction/journal/`：新建，回迁原 `journal/write/fiction/` 日志 4 篇（2026-03）
+- `context/`、`handbook/`、`profile/`、`report/`：移除 write 层，资源平铺入领域归档同名资产目录
 - AGENTS.md、README.md、CONTRIBUTING.md、fiction/README.md：移除「write 存量保持原状」表述，登记迁出与回迁目标
 - 全部已知读者（本仓库文档、主仓库 `journal-to-archive` skill）已同步
 
