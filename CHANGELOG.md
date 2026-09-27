@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2026-09-27
+
+升级 `fiction/`、`game/` 一级主题目录以兼容记忆集新结构（`write/` 集更名 `fiction/`、新增 `game/` 集）；存量 `journal/write/` 保持原状不迁移。
+
+### 路径映射
+
+| 旧路径 | 新路径 |
+|--------|--------|
+| `journal/game/**` | `game/journal/**` |
+
+### Added
+
+- `fiction/README.md`：写作主线归档角色说明（作品 + fiction 记忆集日志归档位 `journal/`，按需创建）
+- `game/README.md`：补充结构说明（项目文档 + `journal/` 记忆集日志）
+- 归档规则：记忆集在归档站有同名一级主题目录时入 `<主题>/journal/`，否则入 `journal/<分类>/`
+
+### Changed
+
+- `journal/game/2026-05-02.md` → `game/journal/2026-05-02.md`
+- README.md、AGENTS.md、CONTRIBUTING.md：结构与归档规则登记 `fiction/`、`game/` 一级目录，`journal/write/` 标注为存量保持原状
+- 全部已知读者（本仓库文档、主仓库 `journal-to-archive` skill）已同步
+
 ## [1.0.1] - 2026-09-26
 
 ### Added
